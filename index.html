@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Agriculture Management System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>AgriFarms</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Farmers</a></li>
+      <li><a href="#">Cold Storage Facilities</a></li>
+      <li><a href="#">Middlemen</a></li>
+      <li><a href="#">Customers</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="farmers">
+      <h2>Farmers</h2>
+      <p>
+        <form action="submit-form.html" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+    
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+    
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+    
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone" required>
+    
+          <label for="address">Address:</label>
+          <textarea id="address" name="address" required></textarea>
+    
+          <button type="submit">Submit</button>
+        </form>
+      </p>
+    </section>
+    <section id="cold-storage">
+      <h2>Cold Storage Facilities</h2>
+      <p></p>
+      
+    </section>
+    <section id="middlemen">
+      <h2>Middlemen</h2>
+      <p></p>
+    </section>
+    <section id="customers">
+      <h2>Customers</h2>
+      <p>
+        <form>
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
+        
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+        
+          <label for="confirm-password">Confirm Password:</label>
+          <input type="password" id="confirm-password" name="confirm-password" required>
+        
+          <button type="submit">Sign Up</button>
+        </form>
+      </p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 AgriFarms</p>
+  </footer>
+</body>
+</html>
+
