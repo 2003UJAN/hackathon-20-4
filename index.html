@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Agriculture Management System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>AgriFarms</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Farmers</a></li>
+      <li><a href="#">Customers</a></li>
+      <li><a href="#">Cold Storage Facilities</a></li>
+      <li><a href="#">Middlemen</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="farmers">
+      <h2>Farmers</h2>
+      <p>
+        <form action="submit-form.html" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+    
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+    
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+    
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone" required>
+    
+          <label for="address">Address:</label>
+          <textarea id="address" name="address" required></textarea>
+    
+          <button type="submit">Submit</button>
+        </form>
+      </p>
+    </section>
+    <section id="customers">
+      <h2>Customers</h2>
+      <p>
+        <form>
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
+        
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+        
+          <label for="confirm-password">Confirm Password:</label>
+          <input type="password" id="confirm-password" name="confirm-password" required>
+        
+          <button type="submit">Sign Up</button>
+        </form>
+      </p>
+    </section>
+    <section id="cold-storage">
+      <h2>Cold Storage Facilities</h2>
+         <p>Antarrtica Cold Storage Facility</p>
+         <p><img src="Images/Cold_Storage.jpg" alt="Image to be loaded" width="500px"></p>
+        <p>
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23977.327771393266!2d80.03983479102246!3d13.04562387019383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a528b84201dfe8b%3A0x950b73eeb24487e9!2sAntarrtica%20Cold%20Storage!5e0!3m2!1sen!2sin!4v1681968816704!5m2!1sen!2sin" width="400" height="400" style="border: 1px;;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </p>
+        <p>
+          <h3>Contact Info:</h3>
+          <p>Phone Number:09841045153</p>
+          <p>Website:
+            <a href="http://antarrtica.in/">Antarrtica.in</Antarrtica></a>
+          </p>
+          <p>Mail:store@antarrtica.in</p>
+        </p>
+    </section>
+    <section id="middlemen">
+      <h2>Middlemen</h2>
+      <p></p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 AgriFarms. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
